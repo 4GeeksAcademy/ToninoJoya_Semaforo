@@ -14,24 +14,17 @@
     width: 10px;
 }
 .semaforo{
-    height: 140px;
+    height: auto;
     width: 60px;
 
 }
-.verde{
-    height: 33px;
-    width: 33px;
-}
-.rojo{
-    height: 33px;
-    width: 33px;
-}
-.amarillo{
-    height: 33px;
-    width: 33px;
-    color: yellow;
+.verde,
+.rojo,
+.amarillo {
+  height: 33px;
+  width: 33px;
 }
 .glow {
     opacity: 1;
-    box-shadow: 0 0 15px 5px currentColor; 
+    box-shadow: 0 0 15px 5px; 
   }

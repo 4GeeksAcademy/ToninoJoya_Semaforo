@@ -22,7 +22,7 @@ export const Semaforo = () => {
                             </div>
                         </div>
 
-                        <div className=" bg-dark semaforo mt-0 d-flex flex-column justify-content-center align-items-center">
+                        <div className=" bg-dark semaforo rounded-4 mt-0 d-flex flex-column justify-content-center align-items-center">
                             <div
                                 className={`rojo btn btn-danger mt-2 rounded-circle ${color === "rojo" ? "glow" : ""}`}
                                 onClick={() => setColor("rojo")}>
@@ -32,7 +32,7 @@ export const Semaforo = () => {
                                 onClick={() => setColor("amarillo")}> 
 
                             </div>
-                            <div className={`verde btn btn-success mt-2 rounded-circle ${color === "verde" ? "glow" : ""}`}
+                            <div className={`verde btn btn-success mt-2 mb-2 rounded-circle ${color === "verde" ? "glow" : ""}`}
                                 onClick={() => setColor("verde")}>
 
                             </div>
