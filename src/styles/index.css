@@ -29,4 +29,9 @@
 .amarillo{
     height: 33px;
     width: 33px;
+    color: yellow;
 }
+.glow {
+    opacity: 1;
+    box-shadow: 0 0 15px 5px currentColor; 
+  }
