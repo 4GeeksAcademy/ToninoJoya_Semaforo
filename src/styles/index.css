@@ -9,3 +9,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.palo{
+    height: 50px;
+    width: 10px;
+}
+.semaforo{
+    height: 140px;
+    width: 60px;
+
+}
+.verde{
+    height: 33px;
+    width: 33px;
+}
+.rojo{
+    height: 33px;
+    width: 33px;
+}
+.amarillo{
+    height: 33px;
+    width: 33px;
+}
