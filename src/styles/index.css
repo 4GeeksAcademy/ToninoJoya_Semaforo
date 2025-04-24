@@ -15,7 +15,7 @@
 }
 .semaforo{
     height: auto;
-    width: 60px;
+    width: 70px;
 
 }
 .verde,
@@ -23,6 +23,24 @@
 .amarillo {
   height: 33px;
   width: 33px;
+}
+.verde{
+    background-color: green;
+    color: green;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.rojo{
+    background-color: red;
+    color: red;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.amarillo{
+    background-color: yellow;
+    color: yellow;
+    cursor: pointer;
 }
 .glow {
     opacity: 1;
