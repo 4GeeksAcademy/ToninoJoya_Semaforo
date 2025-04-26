@@ -22,7 +22,6 @@ export const Semaforo = () => {
                     <div className=" bg-dark semaforo rounded-4 mt-0 d-flex flex-column justify-content-center align-items-center">
                         {
                             coloresSemaforo.map((color, index) => {
-                                console.log(coloresSemaforo)
                                 return (
                                     <div
                                         key={index}
